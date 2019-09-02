@@ -92,7 +92,7 @@ trait Cart {
 	}
 
 	/**
-     * Update the quantity of passed product if exsist by old quantity plus passed quantity.
+     * Update the quantity of passed product if exsist by passed quantity.
      * If cart exsist updated cart will be return. else null will be return.
      *
      * @param  mixed  $p_id
