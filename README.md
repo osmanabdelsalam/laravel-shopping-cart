@@ -22,7 +22,7 @@ You can use it in your laravel ecommerce application to handle the shopping cart
 
 Suppose you have ShoppingCartController in your controllers:
 
-// ShppingCartController class
+```
 class ShoppingCartController extends Controller {
   use \App\Traits\ShoppingCart\Cart;
   
@@ -70,4 +70,4 @@ class ShoppingCartController extends Controller {
   }
   
 }
-//
+```
